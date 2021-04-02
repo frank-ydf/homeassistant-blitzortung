@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Blitzortung",
+        "description": "Configurazione Blitzortung rilevatore di fulmini",
+        "data": {
+          "name": "Nome dell'istanza di questa integrazione"
+        }
+      }
+    },
+    "error": {},
+    "abort": {}
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Opzioni Blitzortung",
+        "description": "Configurazione delle opzioni di Blitzortung rilevatore di fulmini",
+        "data": {
+          "radius": "Raggio di rilevamento (km)",
+          "time_window": "Finestra di tempo (minuti, 0 - disabilitato)",
+          "max_tracked_lightnings": "Numero massimo di fulmini rilevati",
+          "latitude": "Latitudine",
+          "longitude": "Longitudine"
+        }
+      }
+    }
+  }
+}
